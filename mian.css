@@ -1,0 +1,62 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(https://media1.tenor.com/images/aac038f9a43967ad8f482e340f747786/tenor.gif?itemid=13785300);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.owl-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10%;
+  margin: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  margin-right: 10%;
+  min-width: 200px;
+  min-height: 200px;
+  display: flex;
+  align-self: center;
+}
+
+.content {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 5%;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 5%;
+  color: snow;
+}
+
+q {
+  font-size: 20px;
+  text-transform: none;
+}
